@@ -1,0 +1,65 @@
+/* PhoneNumberToggle.css */
+
+.phone-number-toggle {
+    position: relative;
+    
+  }
+  
+  .phone-button {
+    background-color: #4caf50; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+  }
+  
+  .phone-button:hover {
+    background-color: #8ae48e; /* Darker green on hover */
+  }
+  
+  .modal {
+    display: block;
+    width: 10rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+   
+  }
+  
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 30%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 12rem;
+    width: 16rem;
+  }
+  
+  .close {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #555;
+  }
+  .but{
+    margin-left: 6rem;
+  }
+  
+.popup{
+    background-color: #8ae48e;
+    border-radius: 1rem;
+    background-size : 50%;
+  }
+  .Footer{
+    height: 1rem;
+  }

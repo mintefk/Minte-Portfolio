@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+    background: #f5ad00;
+    height: 5rem;
+    width:101.1%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+
+  }
+  .phone{
+    margin-right: 5%;
+  }
+                
+  .logo {
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+    margin-left: 15%;
+
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .desktopMenuListItem {
+    max-width: 75vw;
+    color: rgb(255, 255, 255);
+    margin: 1rem;
+    cursor: pointer;
+    font-family: 'Satisfy', cursive;
+    justify-content: center;
+    margin-left: 2rem;
+  }
+       
+  
+  .desktopMenuListItem:hover {
+    color: rgba(255, 255, 0, 0.826);
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid yellow;
+    
+  }
+                             
+  .desktopMenubtnI {
+    background-color: rgba(219, 219, 99, 0.826);
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3rem;
+    border-radius: 2rem;
+    cursor: pointer;
+
+  }
+   
+
+  .active{
+    color: yellow;
+    padding: 0.5rem;
+    border-bottom: 3px solid yellow;
+  }
+
+                                     
+  /* Media Query for Mobile Menu */
+  @media screen and (max-width: 768px) {
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 5rem;
+      right: 2rem;
+      background-color: white;
+      border: 1px solid black;
+      border-radius: 5px;
+      padding: 1rem;
+      z-index: 4;
+    }
+                                    
+    .navbar.open .menu {
+      display: flex;
+    }
+    .bgph {
+      width: 30px; /* Adjust the width as needed */
+      height: auto;
+      transition: transform 0.3s ease;
+    }
+  }
+  
+  .desktopMenubtn {
+  display: none;
+}
+
+/* Media Query for Mobile Menu */
+@media screen and (max-width: 768px) {
+  .desktopMenubtn {
+    display: block;
+    
+  }
+  .desktopMenubtnI{
+    margin-left: 0.1rem;
+
+  }
+}
+

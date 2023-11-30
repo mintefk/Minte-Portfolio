@@ -1,0 +1,12 @@
+.footer{
+    width: 100vw;
+    height: 10rem;
+    background: #c99e3a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-weight: 300;
+    font-size: small;
+    margin: 4rem 0 0 0;
+}
