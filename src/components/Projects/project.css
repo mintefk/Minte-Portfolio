@@ -104,6 +104,18 @@ color: #000000;
     font-family: Tahoma, Verdana;
     
     }
+
+    @media screen and (max-width:990px){
+        .projectBar_1{
+            height: 15rem;
+        }
+        .projectBar_2{
+            height: 15rem;
+        }
+        .projectBar_3{
+            height: 15rem;
+        }
+    }
  @media screen and (max-width:720px){
         projectBarText>p {
         font-size: 2vw;

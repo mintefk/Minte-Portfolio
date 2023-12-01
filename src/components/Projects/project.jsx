@@ -28,7 +28,7 @@ const project = () => {
                 <h1 className="projectBarText_H1">Project 2</h1> 
                 <h2 className="projectBarText_H2" > Managment System </h2>
                 <p>Organization CBE, Hawassa District </p>
-                <p>Using Figma,PHP and Mysql</p>
+                <p>Using Figma, PHP and Mysql</p>
 
             </div>
             </div>
@@ -40,7 +40,7 @@ const project = () => {
                 <h2 className="projectBarText_H2"> Managment System  </h2>
                 <p>Organization Sino Africa PLC </p>
                
-                <p>Using Figma ,PHP and Mysql</p>
+                <p>Using Figma, PHP and Mysql</p>
                  
             </div>
             </div>

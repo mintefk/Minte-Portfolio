@@ -3,7 +3,6 @@
 #skill{
     overflow: hidden;
     width: 100vw;
-   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,7 +14,6 @@
         background-position: left;
         background-position-y: -17rem;
         background-repeat: no-repeat;
-    
         
 
 }
@@ -29,7 +27,6 @@
     padding-top: 3rem;
     margin-bottom: 1.5rem;
     font-family: 'Satisfy', cursive;
-    
     
     
 }
@@ -62,6 +59,33 @@
     font-weight: 200;
     font-family: 'Arial Narrow Bold', sans-serif;
     }
+
+    @media screen and (max-width: 1150px) {
+        
+        #skill{
+           
+                background-size: 80%;
+                background-position: fixed;
+                background-position-y: -2rem;
+               
+                
+        
+        }
+    
+      }
+
+      @media screen and (max-width: 990px) {
+        
+        #skill{
+           
+                
+                background-position-y: -4rem;
+               
+                
+        
+        }
+    
+      }
 
  @media screen and (max-width:720px){
         skillBarText>p {

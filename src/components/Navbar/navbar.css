@@ -84,6 +84,9 @@ body {
       padding: 1rem;
       z-index: 4;
     }
+    .phone{
+      display: none;
+    }
                                     
     .navbar.open .menu {
       display: flex;
@@ -108,6 +111,9 @@ body {
   .desktopMenubtnI{
     margin-left: 0.1rem;
 
+  }
+  .phone{
+    display: none;
   }
 }
 
