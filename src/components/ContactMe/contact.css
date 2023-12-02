@@ -78,3 +78,44 @@ font-family: 'Satisfy', cursive;
     margin: 0 1rem;
     
 }
+
+@media only screen and (max-width: 320px) {
+    
+
+   
+    .contactPageTitle {
+        font-size: 18px;
+        
+       
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .contactPageTitle {
+        font-size: 18px;
+        
+       
+    } 
+} 
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+    .contactPageTitle {
+        font-size: 24px;
+        
+       
+    }
+}
+@media only screen and (min-width: 426px) and (max-width: 599px) {
+    .contactPageTitle {
+        font-size: 32px;
+        
+    }
+}
+
+@media only screen and (min-width: 602px) and (max-width: 707px) {
+    .contactPageTitle {
+        font-size: 38px;
+        
+       
+    }
+
+}

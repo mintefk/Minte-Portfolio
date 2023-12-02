@@ -87,18 +87,28 @@
     
       }
 
- @media screen and (max-width:720px){
-        skillBarText>p {
-        font-size: 2vw;
+      @media only screen and (max-width: 600px) {
+        /* Styles for small screens */
+        #skill {
+            background-size: 100%;
+        }
+        
+        .skillBars {
+            max-width: 90%;
         }
     }
- @media screen and (max-width:480px) {
-        .skillBarText>p {
-        font-size: 3vW;
+    
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+        /* Styles for medium screens */
+        #skill {
+            background-size: 90%;
         }
-       
-        .skillBarText>h2 {
-        font-size: 5vw;
+    }
+    
+    @media only screen and (min-width: 1025px) {
+        /* Styles for large screens */
+        #skill {
+            background-size: 80%;
         }
     }
     

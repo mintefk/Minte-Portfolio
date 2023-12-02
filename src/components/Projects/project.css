@@ -1,4 +1,5 @@
-#project{
+
+#project {
     overflow: hidden;
     width: 100vw;
     max-width: 65rem;
@@ -8,133 +9,333 @@
     justify-content: center;
     text-align: center;
     margin: 5rem auto;
-
 }
 
-.projectTitle{
+.projectTitle {
     font-size: 3rem;
-margin-bottom: 1rem;
-font-family: 'Roboto Mono', monospace; 
-color: #000000;
-    
+    margin-bottom: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    color: #000000;
+
 }
 
-.projectDesc{
+.projectDesc {
     font-weight: 400;
     font-size: 1rem;
     margin-right: 20%;
     max-width: 45rem;
     padding: 0 2rem;
     font-family: 'Satisfy', cursive;
+
 }
 
 .projectBars {
-        margin: 1.5rem;
-        width: 100vw;
-        max-width: 80%;
-        text-align: left;
-        
-        }
-.projectBar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
-            display: flex;
-            margin: 0.5rem;
-            padding: 1.5rem 2rem;
-            border-radius: 0.5rem;
+.projectBar {
+    display: flex;
+    margin: 0.5rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    width: 100%;
 
-            }
-.projectBar_1{
+}
 
+.projectBar_1,
+.projectBar_2,
+.projectBar_3 {
     display:flex;
     margin-left: 1rem;
     margin-top: -1.5rem;
-    padding: 1.5rem 2rem;
+    padding: 1rem 1.5rem;
     border-radius: 0.5rem;
     background: #F5F5DC;
     width: 30rem;
     height: 12rem;
-
-    }
-
-.projectBar_2{
-        display: flex;
-        margin-left: 2rem;
-        margin-top: -1.5rem;
-        padding: 1rem 2rem;
-        border-radius: 0.5rem;
-        background: #F5F5DC;
-        width: 30rem;
-    height: 12rem;
-                             
-    }
-
-.projectBar_3{
-            
-            display: flex;
-            margin-left: 2rem;
-            margin-top: -1.5rem;
-            padding: 1.5rem 2rem;
-            border-radius: 0.5rem;
-            background: #F5F5DC;
-            width: 30rem;
-            height: 12rem;
-            
-        }
+    width: 100%;
     
+    margin-top: 1rem;
+}
+
 .projectBarImg {
     object-fit: cover;
     height: 2rem;
     width: 2rem;
     margin-right: 2rem;
-    }
+}
 
-    .projectBarText_H1{
-        font-size: 1.6rem; 
-        font-weight: 200;
-        font-family: Tahoma, Verdana;
-    }
-    .projectBarText_H2{
-        font-size: 1rem; 
-        font-weight: 50;
-        font-family: Tahoma, Verdana;
-    }
-.projectBarText{
-    font-size: 0.9rem; 
+.projectBarText_H1 {
+    font-size: 1.6rem;
     font-weight: 200;
     font-family: Tahoma, Verdana;
-    
-    }
+}
 
-    @media screen and (max-width:990px){
-        .projectBar_1{
-            height: 15rem;
-        }
-        .projectBar_2{
-            height: 15rem;
-        }
-        .projectBar_3{
-            height: 15rem;
-        }
-    }
- @media screen and (max-width:720px){
-        projectBarText>p {
-        font-size: 2vw;
+.projectBarText_H2 {
+    font-size: 1rem;
+    font-weight: 50;
+    font-family: Tahoma, Verdana;
+}
+
+.projectBarText {
+    font-size: 0.9rem;
+    font-weight: 200;
+    font-family: Tahoma, Verdana;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 320px) {
+    
+
+   
+    .projectTitle {
+        font-size: 18px;
         
-        }
+       
     }
- @media screen and (max-width:480px) {
-        .projectBarText>p {
-        font-size: 3vW;
-        }
-        .projectBarImg{
-        height: 2.25rem;
-        width: 2.25rem;
-        }
-        .projectBarText>h2 {
-        font-size: 5vw;
-        }
+    
+    .projectDesc {
+        font-weight: 300;
+        font-size: 0.7rem;
+       
+        
+        
     }
+    
+   
+    .projectBar {
+        width: 35%;
+        margin-left: 5%;
+        padding-top: 1rem;
+    }
+
+.projectBar_1,
+.projectBar_2,
+.projectBar_3 {
+
+    margin-left: 0.4rem;
+    
+    
+}
+.projectBarText_H1 {
+    font-size: 1rem;
+    font-weight: 100;
+    
+}
+.projectBarText_H2 {
+    font-size: 0.7rem;
+    font-weight: 30;
+    
+}
+
+.projectBarText {
+    font-size: 0.5rem;
+    font-weight: 100;
+   
+   padding-right: 1rem;
+}
+    
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    .projectTitle {
+        font-size: 18px;
+        
+       
+    }
+    
+    .projectDesc {
+        font-weight: 300;
+        font-size: 0.7rem;
+       
+        
+        
+    }
+    
+   
+    .projectBar {
+        width: 35%;
+        margin-left: 4%;
+        padding-top: 1rem;
+    }
+
+.projectBar_1,
+.projectBar_2,
+.projectBar_3 {
+
+    margin-left: 0.4rem;
+    
+    
+}
+.projectBarText_H1 {
+    font-size: 1rem;
+    font-weight: 100;
+    
+}
+.projectBarText_H2 {
+    font-size: 0.7rem;
+    font-weight: 30;
+    
+}
+
+.projectBarText {
+    font-size: 0.5rem;
+    font-weight: 100;
+   
+   padding-right: 1rem;
+}
+    
+
+    
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+    .projectTitle {
+        font-size: 24px;
+        
+       
+    }
+    
+    .projectDesc {
+        font-weight: 400;
+        font-size: 1rem;
+       
+        
+        
+    }
+    
+   
+    .projectBar {
+        width: 40%;
+        margin-left: 4%;
+        padding-top: 1rem;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+
+.projectBar_1,
+.projectBar_2,
+.projectBar_3 {
+
+    margin-left: 0.4rem;
+    
+    margin-top: 0.2rem;
+    
+}
+.projectBarText_H1 {
+    font-size: 1.1rem;
+    font-weight: 100;
+    
+}
+.projectBarText_H2 {
+    font-size: 0.9rem;
+    font-weight: 30;
+    
+}
+
+.projectBarText {
+    font-size: 0.7rem;
+    font-weight: 100;
+   
+   padding-right: 0.5rem;
+}
+    
+
+    
+}
+
+
+@media only screen and (min-width: 426px) and (max-width: 599px) {
+    .projectTitle {
+        font-size: 32px;
+        
+       
+    }
+    
+    .projectDesc {
+        font-weight: 400;
+        font-size: 1rem;
+       
+        
+        
+    }
+    
+   
+    .projectBar {
+        width: 40%;
+        margin-left: 4%;
+        padding-top: 1rem;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+
+.projectBar_1,
+.projectBar_2,
+.projectBar_3 {
+
+    margin-left: 0.4rem;
+    
+    margin-top: 0.2rem;
+    
+}
+.projectBarText_H1 {
+    font-size: 1.1rem;
+    font-weight: 100;
+    
+}
+.projectBarText_H2 {
+    font-size: 0.9rem;
+    font-weight: 30;
+    
+}
+
+.projectBarText {
+    font-size: 0.7rem;
+    font-weight: 100;
+   
+   padding-right: 0.5rem;
+}
+    
+
+    
+}
+
+
+
+@media only screen and (min-width: 602px) and (max-width: 707px) {
+    .projectTitle {
+        font-size: 38px;
+        
+       
+    }
+    
     
 
 
+
+
+
+
+.projectBarText_H1 {
+    font-size: 1.4rem;
+   
+}
+
+.projectBarText_H2 {
+    font-size: 0.9rem;
     
+}
+
+.projectBarText {
+    font-size: 0.8rem;
+   
+}
+
+    
+}
+
+   
+
+   

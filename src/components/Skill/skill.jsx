@@ -23,7 +23,7 @@ const skill = () => {
                                               
           <div class="progress">
              
-           <div class="progress-bar bg-warning w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Figma</div>
+           <div class="progress-bar bg-warning w-100" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Figma</div>
   
       </div>
         </div>
@@ -36,22 +36,22 @@ const skill = () => {
           
           <div class="progress">
           
-                   <div class="progress-bar  bg-success w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> HTML5</div>
+                   <div class="progress-bar  bg-success w-100" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> HTML5</div>
   
           </div> <br />
           <div class="progress">
           
-                   <div class="progress-bar  bg-success w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> CSS</div>
+                   <div class="progress-bar  bg-success w-100" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> CSS</div>
   
           </div> <br />
           <div class="progress">
           
-                   <div class="progress-bar  bg-success w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> JavaScript</div>
+                   <div class="progress-bar  bg-success w-100" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> JavaScript</div>
   
           </div> <br />
           <div class="progress">
           
-                   <div class="progress-bar bg-warning w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> React</div>
+                   <div class="progress-bar bg-warning w-100" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> React</div>
   
           </div>
         </div>
@@ -66,12 +66,12 @@ const skill = () => {
         </div>
         <div class="progress">
           
-          <div class="progress-bar bg-success w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">MySQL</div>
+          <div class="progress-bar bg-success w-100" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">MySQL</div>
 
  </div> <br />
         <div class="progress">
           
-          <div class="progress-bar bg-warning w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">MongoDB</div>
+          <div class="progress-bar bg-warning w-100" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">MongoDB</div>
 
         </div>
    
@@ -83,19 +83,19 @@ const skill = () => {
         </div>
         <div class="progress">
           
-          <div class="progress-bar bg-success w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Node.js</div>
+          <div class="progress-bar bg-success w-100" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Node.js</div>
            
          </div>
          <br />
          <div class="progress">
           
-          <div class="progress-bar bg-success w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">PHP</div>
+          <div class="progress-bar bg-success w-100" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">PHP</div>
            
          </div>
          <br />
          <div class="progress">
           
-          <div class="progress-bar bg-warning w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> Django</div>
+          <div class="progress-bar bg-warning w-100" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> Django</div>
            
          </div>
      
