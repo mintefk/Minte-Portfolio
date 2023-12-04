@@ -20,7 +20,7 @@
   
   .modal {
     display: block;
-    width: 10rem;
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -42,7 +42,7 @@
     height: 12rem;
     width: 16rem;
   }
-  
+
   .close {
     position: absolute;
     top: 2px;
@@ -51,10 +51,12 @@
     cursor: pointer;
     color: #555;
   }
+
   .but{
     margin-left: 6rem;
   }
-  
+
+
 .popup{
     background-color: #8ae48e;
     border-radius: 1rem;
@@ -62,4 +64,10 @@
   }
   .Footer{
     height: 1rem;
+  }
+
+  @media only screen and (max-width: 320px) {
+        
+    
+      
   }

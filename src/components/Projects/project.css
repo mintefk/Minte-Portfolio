@@ -70,19 +70,19 @@
 .projectBarText_H1 {
     font-size: 1.6rem;
     font-weight: 200;
-    font-family: Tahoma, Verdana;
+    font-family: 'sans-serif';
 }
 
 .projectBarText_H2 {
     font-size: 1rem;
     font-weight: 50;
-    font-family: Tahoma, Verdana;
+    font-family: 'sans-serif';
 }
 
 .projectBarText {
     font-size: 0.9rem;
     font-weight: 200;
-    font-family: Tahoma, Verdana;
+    font-family: 'sans-serif';
 }
 
 /* Responsive Styles */
@@ -139,7 +139,7 @@
     
 }
 
-@media only screen and (min-width: 321px) and (max-width: 375px) {
+@media only screen and (min-width: 321px) and (max-width: 373px) {
     .projectTitle {
         font-size: 18px;
         
@@ -191,7 +191,7 @@
     
 }
 
-@media only screen and (min-width: 376px) and (max-width: 425px) {
+@media only screen and (min-width: 374px) and (max-width: 423px) {
     .projectTitle {
         font-size: 24px;
         
@@ -247,7 +247,7 @@
 }
 
 
-@media only screen and (min-width: 426px) and (max-width: 599px) {
+@media only screen and (min-width: 424px) and (max-width: 599px) {
     .projectTitle {
         font-size: 32px;
         
@@ -336,6 +336,5 @@
     
 }
 
-   
 
    

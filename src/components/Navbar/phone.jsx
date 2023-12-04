@@ -17,7 +17,7 @@ const PhoneNumberToggle = () => {
       {/* Button trigger modal */}
       <button type="button" className="btn" onClick={handleToggle}>
         <img src={btnimg} alt="Hire Me" className="btnimg" />Hire Me </button>
-
+        
       {/* Modal */}
       <Modal show={isPhoneNumberVisible} onHide={handleToggle}>
        

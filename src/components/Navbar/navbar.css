@@ -90,6 +90,7 @@ body {
                                     
     .navbar.open .menu {
       display: flex;
+      background-color: #f4ac04;
     }
     .bgph {
       width: 30px; /* Adjust the width as needed */

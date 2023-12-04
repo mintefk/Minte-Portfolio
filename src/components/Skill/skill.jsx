@@ -9,18 +9,18 @@ const skill = () => {
        
       <span className="skillTitle">What I DO</span> 
       <span className="skillDesc">
-        I've been immersing myself in the MERN stack and PHP with MySQL.
+      I've been immersing myself in the MERN stack and PHP with MySQL.
         My skill set includes JavaScript, React.js, Node.js, and MySQL, and I'm dedicated to advancing my abilities in building web applications, developing RESTful APIs, and optimizing database performance. During this early phase of my career,
         I've contributed to projects like a basic e-commerce website, representing my ongoing learning journey. To gain insights into my progress and contributions, you can explore my code on GitHub. I'm enthusiastic about taking on fresh challenges,
-        so please feel free to connect with me via mintesnotfk@gmail.com or on my.
+        so please feel free to connect with me via mintesnotfk@gmail.com.
       </span>
 
       <div className="skillBars" >
-             <h3>Skills</h3>
+      <span className="skillTitle">Skill</span> 
         <div className="skillBarText">
 
           <h6>UI/UX</h6>
-                                              
+                                                        
           <div class="progress">
              
            <div class="progress-bar bg-warning w-100" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Figma</div>
@@ -36,7 +36,7 @@ const skill = () => {
           
           <div class="progress">
           
-                   <div class="progress-bar  bg-success w-100" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> HTML5</div>
+                   <div class="progress-bar  bg-success w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> HTML5</div>
   
           </div> <br />
           <div class="progress">
