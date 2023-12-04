@@ -21,11 +21,11 @@
 
 .projectDesc {
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-right: 20%;
     max-width: 45rem;
     padding: 0 2rem;
-    font-family: 'Satisfy', cursive;
+    font-family: 'sans-serif';
 
 }
 
@@ -191,19 +191,17 @@
     
 }
 
+
 @media only screen and (min-width: 374px) and (max-width: 423px) {
+    
     .projectTitle {
         font-size: 24px;
-        
-       
+
     }
     
     .projectDesc {
         font-weight: 400;
         font-size: 1rem;
-       
-        
-        
     }
     
    
@@ -231,12 +229,12 @@
 }
 .projectBarText_H2 {
     font-size: 0.9rem;
-    font-weight: 30;
+    font-weight: 20;
     
 }
 
 .projectBarText {
-    font-size: 0.7rem;
+    font-size: 0.66rem;
     font-weight: 100;
    
    padding-right: 0.5rem;
@@ -292,7 +290,7 @@
 }
 
 .projectBarText {
-    font-size: 0.7rem;
+    font-size: 0.66rem;
     font-weight: 100;
    
    padding-right: 0.5rem;
