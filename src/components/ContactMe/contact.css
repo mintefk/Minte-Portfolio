@@ -71,10 +71,12 @@ font-family: 'sans-serif' ;
     flex-wrap: wrap;
 }
 .link {
+
     object-fit: cover;
     height: 3rem;
     width: 3rem;
     margin: 0 1rem;
+   
     
 }
 
@@ -85,25 +87,132 @@ font-family: 'sans-serif' ;
     .contactPageTitle {
         font-size: 18px;
         
-       
     }
+
+    .link{
+        height: 2rem;
+        width: 2rem;
+        margin: 0 0.4rem;
+    }
+    .submitBtn{
+       
+        margin: 0.2rem;
+        margin-bottom: 2.7rem;
+        padding: 0.55rem 0;
+        padding-left: 0.7rem;
+        padding-right: 3.5rem;
+        height: 2.5rem;
+        width: 2rem;
+        
+        
+        
+        }
+        .contactForm{
+            margin: 3%;
+            margin-left: 18%;
+            width: 60vw;
+        
+        }
+        .name, .email, .msg{
+
+            font-size: small;
+            width: 100%;
+            max-width: 40rem;
+            margin: 0.5rem;
+            padding: 0.2rem 1rem;
+            
+            }
+           
+
 }
 
-@media only screen and (min-width: 321px) and (max-width: 375px) {
+@media only screen and (min-width: 321px) and (max-width: 376px) {
     .contactPageTitle {
-        font-size: 18px;
+        font-size: 24px;
 
     } 
+    
+    
+
+    .link{
+        height: 2.3rem;
+        width: 2.3rem;
+        margin: 0 0.4rem;
+    }
+    .submitBtn{
+       
+        margin: 0.2rem;
+        margin-bottom: 2.7rem;
+        padding: 0.55rem 0;
+        padding-left: 0.7rem;
+        padding-right: 3.5rem;
+        height: 2.5rem;
+        width: 2rem;
+        
+        
+        
+        }
+        .contactForm{
+           
+            margin-left: 15%;
+            width: 70vw;
+        
+        }
+        .name, .email, .msg{
+
+            font-size: small;
+            padding: 0.2rem 1rem;
+            
+            }
+   
+
+
 } 
-@media only screen and (min-width: 376px) and (max-width: 425px) {
+@media only screen and (min-width: 377px) and (max-width: 426px) {
     .contactPageTitle {
         font-size: 24px;
     }
+
+
+
+    .link{
+        height: 2.3rem;
+        width: 2.3rem;
+        margin: 0 0.4rem;
+    }
+    .submitBtn{
+       
+        margin: 0.2rem;
+        margin-bottom: 2.7rem;
+        padding: 0.55rem 0;
+        padding-left: 0.7rem;
+        padding-right: 3.5rem;
+        height: 2.5rem;
+        width: 2rem;
+        
+        
+        
+        }
+        .contactForm{
+           
+            margin-left: 15%;
+            width: 70vw;
+        
+        }
+        .name, .email, .msg{
+
+            font-size: small;
+            padding: 0.2rem 1rem;
+            
+            }
+
+    
 }
-@media only screen and (min-width: 426px) and (max-width: 599px) {
+@media only screen and (min-width: 427px) and (max-width: 599px) {
     .contactPageTitle {
         font-size: 32px;
     }
+
 }
 
 @media only screen and (min-width: 602px) and (max-width: 707px) {
@@ -112,3 +221,6 @@ font-family: 'sans-serif' ;
     }
 
 }
+
+
+

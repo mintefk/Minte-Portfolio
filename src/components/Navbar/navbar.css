@@ -17,7 +17,8 @@ body {
   .phone{
     margin-right: 5%;
   }
-                
+                       
+                 
   .logo {
     object-fit: cover;
     height: 3rem;
@@ -29,8 +30,8 @@ body {
   .menu {
     display: flex;
     align-items: center;
-  }
-  
+  }  
+
   .desktopMenuListItem {
     max-width: 75vw;
     color: rgb(255, 255, 255);
@@ -41,7 +42,6 @@ body {
     margin-left: 2rem;
   }
        
-  
   .desktopMenuListItem:hover {
     color: rgba(255, 255, 0, 0.826);
     padding-bottom: 0.5rem;
@@ -61,17 +61,33 @@ body {
     cursor: pointer;
 
   }
-   
 
   .active{
     color: yellow;
     padding: 0.5rem;
     border-bottom: 3px solid yellow;
   }
-
-                                     
+  .desktopMenubtn {
+    display: none;
+  }                
   /* Media Query for Mobile Menu */
   @media screen and (max-width: 768px) {
+    .desktopMenubtn {
+      display: flex;
+      background-color: #f4ac04;
+     
+      border: none;
+      border-radius: 1rem;
+    }
+  
+
+    .desktopMenubtnI{
+      margin-left: 0.1rem;
+    }
+
+    .phone{
+      display: none;
+    }
     .menu {
       display: none;
       flex-direction: column;
@@ -87,34 +103,30 @@ body {
     .phone{
       display: none;
     }
-                                    
+                              
     .navbar.open .menu {
       display: flex;
       background-color: #f4ac04;
+     
     }
     .bgph {
-      width: 30px; /* Adjust the width as needed */
+     
+      width: 100px; 
       height: auto;
-      transition: transform 0.3s ease;
+      
     }
   }
   
-  .desktopMenubtn {
-  display: none;
-}
+ 
 
-/* Media Query for Mobile Menu */
-@media screen and (max-width: 768px) {
-  .desktopMenubtn {
-    display: block;
-    
-  }
-  .desktopMenubtnI{
-    margin-left: 0.1rem;
 
-  }
+@media only screen and (min-width: 768px) and (max-width: 801px) {
+
   .phone{
     display: none;
   }
+
 }
+
+
 

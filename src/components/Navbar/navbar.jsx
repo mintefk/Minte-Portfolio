@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import './navbar.css';
-import menu from '../../assets/13.png';
+import menu from '../../assets/10.png';
 import logo from '../../assets/logo.png';
-
-import { Link } from 'react-scroll';
 import PhoneNumberToggle from './phone.jsx';
+import { Link } from 'react-scroll';
+
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -36,13 +36,19 @@ const Navbar = () => {
       <div className='phone'>
           <PhoneNumberToggle />
         </div>
+
+
+
+
                 
       <button className="desktopMenubtn" onClick={toggleMobileMenu}>
-        {isMobileMenuOpen ? 'Close' :  <img src={menu} alt="" className="bgph" /> }
+        {isMobileMenuOpen ?  'x'  :  <img src={menu} alt="" className="bgph" /> }
       </button>
     </nav>
+
   );
 };
 
 export default Navbar;
+
 
