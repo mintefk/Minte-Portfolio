@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
 import './contact.css';
-import facebookIcon from "../../assets/facebook-icon.png";
-import TwitterIcon from "../../assets/twitter.png";
-import YouTubeIcon from "../../assets/youtube.png";
+// import facebookIcon from "../../assets/facebook-icon.png";
+// import TwitterIcon from "../../assets/twitter.png";
+import YouTubeIcon from "../../assets/G.png";
 import Linkedin from "../../assets/linkedin.png";
 import emailjs from '@emailjs/browser';
 const Contact = () => {
@@ -37,10 +37,10 @@ const Contact = () => {
       <button type='submit' value='Send' className="submitBtn">Submit</button>
      
      <div className="links">
-         <img src= {facebookIcon} alt="" className="link" />
-         <img src= {TwitterIcon} alt="" className="link" />
-         <img src={YouTubeIcon} alt="" className="link" />
-         <img src={Linkedin} alt="" className="link" />
+         {/* <img src= {facebookIcon} alt="" className="link" />
+         <img src= {TwitterIcon} alt="" className="link" /> */}
+         <a href="https://github.com/mintefk"><img src={YouTubeIcon} alt="" className="link" /></a>
+         <a href="https://www.linkedin.com/in/mintesnot-fikre-6b665522b/"><img src={Linkedin} alt="" className="link" /> </a>
    </div>
    </form>
 </div>
